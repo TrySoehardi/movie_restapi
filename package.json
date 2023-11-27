@@ -1,0 +1,49 @@
+{
+  "name": "movie_restapi",
+  "version": "1.0.0",
+  "description": "this module was build use expressJs for backend service",
+  "main": "dist/server/index.js",
+  "scripts": {
+    "test": "start || dev",
+    "dev": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrySoehardi/movie_restapi.git"
+  },
+  "keywords": [
+    "express_rest_api"
+  ],
+  "author": "Try Suhardi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TrySoehardi/movie_restapi/issues"
+  },
+  "homepage": "https://github.com/TrySoehardi/movie_restapi#readme",
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/express": "^4.17.21",
+    "@types/uuid": "^9.0.7",
+    "@typescript-eslint/eslint-plugin": "^6.12.0",
+    "@typescript-eslint/parser": "^6.12.0",
+    "eslint": "^8.54.0",
+    "nodemon": "^3.0.1",
+    "sequelize-cli": "^6.6.2",
+    "sequelize-typescript": "^2.1.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "body-parser": "^1.20.2",
+    "dayjs": "^1.11.10",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "joi": "^17.11.0",
+    "pg": "^8.11.3",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^6.35.1",
+    "typedi": "^0.10.0",
+    "uuid": "^9.0.1"
+  }
+}
